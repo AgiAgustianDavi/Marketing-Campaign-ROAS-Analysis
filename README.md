@@ -2,8 +2,6 @@
 
 Cross-channel marketing performance analysis and next-period budget allocation recommendations, based on historical data from 75 campaigns across 5 channels throughout January–December 2025.
 
-![Banner](assets/campaign_performance_banner.png)
-
 ---
 
 ## 📌 Overview
@@ -24,9 +22,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 ## 🛠️ Tools & Tech Stack
 
 - **SQL** — extracting & aggregating campaign data from the database
-- **Excel** — data cleaning, metric calculations (ROAS, CPA, CPC, CVR), and interactive dashboard
-- **Power BI** — dashboard visualization and cross-channel performance reporting
-- **Python (Pandas)** — exploratory analysis and data segmentation
+- **Excel** — data cleaning, metric calculations (ROAS, CPA, CPC, CVR), and analyze data
+- **Power BI** — visualization and cross-channel performance reporting
+- **Claude AI** - accelerate project development and improve workflow efficiency
 - **Data Visualization** — communicating insights to non-technical stakeholders
 
 ---
@@ -34,6 +32,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 ## 🔍 5 Key Findings
 
 ### Q1 — Highest & Lowest ROAS Campaigns
+
+![Banner](1.jpeg)
+
 **Insight:** The top 10 ROAS campaigns all come from Email — not because it's the best strategy, but because of its very low delivery cost. The bottom 10 are all Awareness campaigns on TikTok/Meta, which is expected since their goal isn't direct conversion.
 
 **Recommendations:**
@@ -42,6 +43,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 - Don't compare ROAS across channels apples-to-apples without cost context
 
 ### Q2 — Channel Efficiency: CPC, CPA & Conversion Rate
+
+![Banner](2.jpeg)
+
 **Insight:** Outside of Email, **Affiliate** is the most efficient in real terms — the lowest CPA (Rp 53,107), a 3.48% conversion rate, and 8.32x ROAS. Google Ads has the highest CPC but its CPA remains competitive because its traffic is the most "purchase-intent" driven. TikTok is cheap per click but has the lowest conversion rate (1.07%).
 
 **Recommendations:**
@@ -50,6 +54,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 - TikTok: improve conversion rate (landing page, targeting, CTA) rather than chasing cheap CPC
 
 ### Q3 — Time Trends & Ad Fatigue Indicators
+
+![Banner](3.jpeg)
+
 **Insight:** Performance peaked in March–April (ROAS 4.3–4.7x), then declined consistently through December (1.76x). There's a clear ad fatigue pattern: ROAS drops ~43% once a campaign has run for more than 12 weeks.
 
 **Recommendations:**
@@ -58,6 +65,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 - Investigate whether the Oct–Dec decline is a deliberate decision or a market demand signal, before 2026 budget planning
 
 ### Q4 — Performance by Campaign Type & Segmentation
+
+![Banner](4.jpeg)
+
 **Insight:** 61% of the budget goes to Awareness (lowest ROAS, 1.48x), while Conversion — the most efficient (9.52x ROAS) — only gets 18%. The 18–24 age group is the most efficient audience (5.17x ROAS); specific cities (Semarang, Surabaya, Bali) far outperform broad "National" targeting.
 
 **Recommendations:**
@@ -66,6 +76,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 - Reduce broad "National" targeting — replace it with a granular location approach
 
 ### Q5 — Next-Period Budget Allocation Recommendation
+
+![Banner](5.jpeg)
+
 **Insight:** Email's ROAS (650x) was deliberately excluded from pure proportional allocation because the result would be unrealistic. The methodology used is an incremental adjustment (+30%/-40% of current share) based on ROAS signal vs. average — more credible to execute.
 
 | Channel | Current Allocation | New Allocation | Action | Reason |
@@ -87,23 +100,9 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 
 > All three recommendation pillars — channel allocation (Q5), creative refresh cycle (Q3), and segmentation focus (Q4) — are complementary and should ideally be executed together for optimal impact on overall ROAS.
 
----
-
-## 📁 Repository Structure
-
-```
-campaign-performance-analysis/
-├── data/
-│   └── campaign_performance_dashboard_2025.xlsx
-├── report/
-│   └── laporan_performa_campaign_2025.pdf
-├── assets/
-│   └── campaign_performance_banner.png
-└── README.md
-```
 
 ---
 
 ## 👤 Author
 
-Data Analyst Team — Marketing Division
+Agi Agustian Davi - Entry Level Data Analyst
