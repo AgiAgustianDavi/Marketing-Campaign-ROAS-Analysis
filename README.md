@@ -21,7 +21,7 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 
 ## 📌 Overview
 
-This project analyzes a marketing campaign dataset (`campaign_performance_dashboard_2025.xlsx`, 75 campaigns) covering spend, revenue, and engagement metrics across 5 channels — Google Ads, Meta Ads, TikTok Ads, Email, and Affiliate — throughout 2025. The goal is to answer five core business questions for marketing leadership:
+This project analyzes a marketing campaign dataset (`campaign_performance_cleaned_2025.xlsx`, 75 campaigns) covering spend, revenue, and engagement metrics across 5 channels — Google Ads, Meta Ads, TikTok Ads, Email, and Affiliate — throughout 2025. The goal is to answer five core business questions for marketing leadership:
 
 1. Which campaigns deliver the highest and lowest return, and what does that mean for budget decisions?
 2. Which channel is most cost-efficient, beyond just ROAS?
@@ -40,7 +40,7 @@ This project analyzes a marketing campaign dataset (`campaign_performance_dashbo
 
 **Key takeaway:** The current budget structure is still overweight in the upper funnel (Awareness), which has historically been less efficient, while the lower funnel (Conversion) and the Affiliate channel — proven to be the most profitable — remain under-funded for growth. A measured budget shift has the potential to improve efficiency without increasing the total budget.
 
-The full narrative report (with executive framing, callouts, and recommendations) is available as a PDF: [`laporan_performa_campaign_2025.pdf`](./report/laporan_performa_campaign_2025.pdf). This README summarizes the same findings for quick reference on GitHub.
+The full narrative report (with executive framing, callouts, and recommendations) is available as a PDF: [`laporan_performa_campaign_2025.pdf`](laporan_performa_campaign_2025.pdf). This README summarizes the same findings for quick reference on GitHub.
 
 ---
 
