@@ -3,21 +3,31 @@
 Cross-channel marketing performance analysis and next-period budget allocation recommendations, based on historical data from 75 campaigns across 5 channels throughout January–December 2025.
 
 ---
+
 ## 📋 Table of Contents
 
-- [Overview](##-overview)
-- [Tools & Tech Stack](##-Tools-&-Tech-Stack)
-- [1. Funnel Conversion](#1-where-are-leads-dropping-off)
-- [2. Win Rate per Sales Rep](#2-how-does-each-sales-rep-perform)
-- [3. Lead Source Quality](#3-which-lead-source-is-most-valuable)
-- [4. Sales Cycle Length by Region](#4-how-long-does-the-sales-cycle-take-per-region)
-- [5. Lost Reason Breakdown](#5-why-are-deals-lost-and-can-it-be-prevented)
-- [Priority Recommendations Roadmap](#-priority-recommendations-roadmap)
-- [Data Notes & Limitations](#-data-notes--limitations)
+- [Overview](#-overview)
+- [Tools & Tech Stack](#️-tools--tech-stack)
+- [Key Findings](#-5-key-findings)
+  - [1. Highest & Lowest ROAS Campaigns](#q1--highest--lowest-roas-campaigns)
+  - [2. Channel Efficiency: CPC, CPA & Conversion Rate](#q2--channel-efficiency-cpc-cpa--conversion-rate)
+  - [3. Time Trends & Ad Fatigue Indicators](#q3--time-trends--ad-fatigue-indicators)
+  - [4. Performance by Campaign Type & Segmentation](#q4--performance-by-campaign-type--segmentation)
+  - [5. Next-Period Budget Allocation Recommendation](#q5--next-period-budget-allocation-recommendation)
+- [Priority Action Checklist](#-priority-action-checklist)
 - [Repository Structure](#-repository-structure)
+
 ---
 
 ## 📌 Overview
+
+This project analyzes a marketing campaign dataset (`campaign_performance_dashboard_2025.xlsx`, 75 campaigns) covering spend, revenue, and engagement metrics across 5 channels — Google Ads, Meta Ads, TikTok Ads, Email, and Affiliate — throughout 2025. The goal is to answer five core business questions for marketing leadership:
+
+1. Which campaigns deliver the highest and lowest return, and what does that mean for budget decisions?
+2. Which channel is most cost-efficient, beyond just ROAS?
+3. Does campaign performance decline over time, and what's causing it?
+4. Is there a meaningful performance difference by campaign objective or target audience?
+5. How should the budget be allocated next period, based on historical data?
 
 | Metric | Value |
 |---|---|
@@ -29,6 +39,8 @@ Cross-channel marketing performance analysis and next-period budget allocation r
 | **Data Period** | January – December 2025 |
 
 **Key takeaway:** The current budget structure is still overweight in the upper funnel (Awareness), which has historically been less efficient, while the lower funnel (Conversion) and the Affiliate channel — proven to be the most profitable — remain under-funded for growth. A measured budget shift has the potential to improve efficiency without increasing the total budget.
+
+The full narrative report (with executive framing, callouts, and recommendations) is available as a PDF: [`laporan_performa_campaign_2025.pdf`](./report/laporan_performa_campaign_2025.pdf). This README summarizes the same findings for quick reference on GitHub.
 
 ---
 
