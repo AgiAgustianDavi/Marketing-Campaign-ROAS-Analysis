@@ -3,6 +3,19 @@
 Cross-channel marketing performance analysis and next-period budget allocation recommendations, based on historical data from 75 campaigns across 5 channels throughout January–December 2025.
 
 ---
+## 📋 Table of Contents
+
+- [Overview](##-overview)
+- [Tools & Tech Stack](##-Tools-&-Tech-Stack)
+- [1. Funnel Conversion](#1-where-are-leads-dropping-off)
+- [2. Win Rate per Sales Rep](#2-how-does-each-sales-rep-perform)
+- [3. Lead Source Quality](#3-which-lead-source-is-most-valuable)
+- [4. Sales Cycle Length by Region](#4-how-long-does-the-sales-cycle-take-per-region)
+- [5. Lost Reason Breakdown](#5-why-are-deals-lost-and-can-it-be-prevented)
+- [Priority Recommendations Roadmap](#-priority-recommendations-roadmap)
+- [Data Notes & Limitations](#-data-notes--limitations)
+- [Repository Structure](#-repository-structure)
+---
 
 ## 📌 Overview
 
